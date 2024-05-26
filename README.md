@@ -1,0 +1,12 @@
+The Deep Learning-Based Ship Localization and Source-Destination Detection System is a comprehensive solution designed to enhance maritime surveillance and navigation capabilities using advanced deep learning techniques. This project aims to automatically detect and localize ships within maritime scenes captured by Synthetic Aperture Radar (SAR) imagery, and further analyze their trajectories to identify source and destination points. 
+By leveraging state-of-the-art deep learning models and image processing algorithms.Leveraging deep learning techniques, the system identifies not only the presence and location of ships but also determines their source and destination points, providing valuable insights for maritime monitoring and navigation applications.Gather a dataset containing various images of ships at sea, including images with clear visibility of both the source and destination ports.
+Annotate the dataset to label ships, their source ports, and their destination ports. This annotation process might involve manually marking the ships, source ports, and destination ports in each image.The Deep Learning-Based Ship Localization and Source-Destination Detection System is a comprehensive solution designed to enhance maritime surveillance.
+This project aims to automatically detect and localize ships within maritime scenes captured by Synthetic Aperture Radar (SAR) imagery, and further analyze their trajectories to identify source and destination points. 
+We use YOLO (You Only Look Once) detection algorithm . YOLO is a state-of-the-art object detection algorithm that is very fast and accurate.Design a convolutional neural network (CNN) architecture capable of detecting and localizing ships in images.
+Train the model using the annotated dataset. Use techniques like transfer learning if pre-trained models are available to speed up training and improve performance.You Only Look Once (YOLO) proposes using an end-to-end neural network that makes predictions of bounding boxes and class probabilities all at once. It differs from the approach taken by previous object detection algorithms, which repurposed classifiers to perform detection.
+The YOLO algorithm takes an image as input and then uses a simple deep convolutional neural network to detect objects in the image. The architecture of the CNN model that forms the backbone of YOLO is shown below.
+![Uploading image.png…]()
+
+
+
+
